@@ -1,0 +1,76 @@
+# GitHub Pages (classic Jekyll build, no Actions)
+title: "Facebook 广告资料库中文指南"
+description: "Facebook 广告资料库（Meta Ad Library）中文教程：查竞品广告、判断爆款、保存素材、按品类和市场找广告。"
+lang: zh-CN
+url: "https://zlaouaywhuyasdlaouaysh-ui.github.io"
+baseurl: "/facebook-ad-library-guide"
+repository: "zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-guide"
+author:
+  name: "33.ci"
+  url: "https://33.ci"
+logo: "https://33.ci/icon-192.png"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+relative_links:
+  enabled: true
+  collections: false
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - LICENSE
+  - package.json
+  - test/
+  - node_modules/
+defaults:
+  - scope: {path: ""}
+    values: {layout: default}
+  - scope: {path: "README.md"}
+    values: {title: "Facebook 广告资料库中文指南（20 章）", description: "Facebook 广告资料库（Meta Ad Library）中文教程：怎么查竞品广告、看懂广告卡片、判断爆款、保存素材，按品类和市场找广告，附链接参数与中英术语对照。", alt_en: "README.en.html"}
+  - scope: {path: "README.en.md"}
+    values: {title: "Facebook Ad Library Guide (Chinese, 20 chapters)", description: "A 20-chapter Chinese guide to the Facebook Ad Library (Meta Ad Library): find competitors' ads, read ad cards, spot winning ads and save creatives.", lang: en, alt_zh: "./"}
+  - scope: {path: "docs/01-facebook-ad-library-guide.md"}
+    values: {description: "从打开资料库、选国家类别、搜索筛选到读懂广告卡片的入门指南。", full: "https://33.ci/guides/facebook-ad-library-guide?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/02-find-competitor-facebook-ads.md"}
+    values: {description: "已知或未知对手时，如何在资料库找到其在投广告并系统记录。", full: "https://33.ci/guides/find-competitor-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/03-view-all-ads-of-a-page.md"}
+    values: {description: "三种方法打开一个主页的全部广告，附链接参数说明和查看技巧。", full: "https://33.ci/guides/view-all-ads-of-a-page?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/04-ad-library-search-tips.md"}
+    values: {description: "模糊与精确匹配、目标语言、多角度换词和筛选，提升关键词搜索命中率。", full: "https://33.ci/guides/ad-library-search-tips?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/05-why-ads-not-showing-in-ad-library.md"}
+    values: {description: "七种常见原因及快速排查顺序，解决资料库搜不到主页或广告的问题。", full: "https://33.ci/guides/why-ads-not-showing-in-ad-library?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/06-ad-library-not-loading.md"}
+    values: {description: "资料库打不开、转圈、空白或弹登录框时，按网络和浏览器逐步排查。", full: "https://33.ci/guides/ad-library-not-loading?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/07-ad-library-ad-spend.md"}
+    values: {description: "哪些广告公开花费与覆盖数据，看不到时如何用间接信号判断投入。", full: "https://33.ci/guides/ad-library-ad-spend?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/08-ad-library-multiple-versions.md"}
+    values: {description: "解读「多个版本」与「X 条广告使用此素材」提示，借此识别主推素材。", full: "https://33.ci/guides/ad-library-multiple-versions?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/09-ad-library-ad-id.md"}
+    values: {description: "资料库编号在哪找、如何拼链接直接打开广告，以及编号的实际用途。", full: "https://33.ci/guides/ad-library-ad-id?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/10-find-facebook-page-id.md"}
+    values: {description: "三种方法找到主页编号，并用它精准打开主页的全部广告。", full: "https://33.ci/guides/find-facebook-page-id?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/11-how-to-spot-winning-facebook-ads.md"}
+    values: {description: "用投放天数、复制条数、变体和多主页同投等五个信号判断爆款。", full: "https://33.ci/guides/how-to-spot-winning-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/12-download-facebook-ad-creatives.md"}
+    values: {description: "保存资料库里的图片和视频、记录关键信息，以及素材的版权边界。", full: "https://33.ci/guides/download-facebook-ad-creatives?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/13-how-long-ad-has-been-running.md"}
+    values: {description: "从开始日期算投放天数，按天数判断效果，并避开常见误读。", full: "https://33.ci/guides/how-long-ad-has-been-running?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/14-track-competitor-new-ads.md"}
+    values: {description: "用日期筛选、品类关键词或自动监控，及时发现竞品新上的广告。", full: "https://33.ci/guides/track-competitor-new-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/15-analyze-competitor-ad-copy.md"}
+    values: {description: "挑对广告，用五个问题拆文案，按角度归类并读懂动态创意测试。", full: "https://33.ci/guides/analyze-competitor-ad-copy?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/16-pet-products-facebook-ads.md"}
+    values: {description: "宠物类搜索词清单、常见素材角度、跟进判断和季节节点。", full: "https://33.ci/guides/pet-products-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/17-womens-apparel-facebook-ads.md"}
+    values: {description: "按品类、场景、人群拆词搜女装广告，附素材形式和季节节点。", full: "https://33.ci/guides/womens-apparel-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/18-us-facebook-ads.md"}
+    values: {description: "美国市场的国家选择、搜词习惯、可见数据和节日看广告时间表。", full: "https://33.ci/guides/us-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/19-eu-facebook-ads.md"}
+    values: {description: "欧盟广告可看覆盖人数、国家与年龄性别分布，停投后保留约一年。", full: "https://33.ci/guides/eu-facebook-ads?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
+  - scope: {path: "docs/20-check-ad-countries.md"}
+    values: {description: "用欧盟透明度数据、逐国筛选或看主页整体分布查广告投放国家。", full: "https://33.ci/guides/check-ad-countries?utm_source=github-pages&utm_medium=referral&utm_campaign=fb-ad-library-guide", seo: {type: TechArticle}}
