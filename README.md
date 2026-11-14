@@ -5,12 +5,7 @@
   20 章，面向跨境电商、独立站、品牌出海的投手和运营。
 </p>
 
-<p align="center">
-  <a href="https://33.ci/guides?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-guide"><b>完整图文版</b></a> ·
-  <a href="README.en.md">English</a> ·
-  <a href="https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools">链接生成 / 编号提取工具</a> ·
-  <a href="https://33.ci/?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-guide">33.ci 广告监控</a>
-</p>
+**[完整图文版](https://33.ci/guides?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-guide)** · [English](README.en.md) · [链接生成 / 编号提取工具](https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools) · [33.ci 广告监控](https://33.ci/?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-guide)
 
 ---
 

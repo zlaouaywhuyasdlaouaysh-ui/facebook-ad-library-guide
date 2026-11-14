@@ -8,6 +8,7 @@ repository: "zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-guide"
 author:
   name: "33.ci"
   url: "https://33.ci"
+  type: "Organization"
 logo: "https://33.ci/icon-192.png"
 plugins:
   - jekyll-seo-tag
@@ -31,7 +32,7 @@ defaults:
   - scope: {path: ""}
     values: {layout: default}
   - scope: {path: "README.md"}
-    values: {title: "Facebook 广告资料库中文指南（20 章）", description: "Facebook 广告资料库（Meta Ad Library）中文教程：怎么查竞品广告、看懂广告卡片、判断爆款、保存素材，按品类和市场找广告，附链接参数与中英术语对照。", alt_en: "README.en.html"}
+    values: {title: "Facebook 广告资料库怎么用：查竞品广告、判断爆款、保存素材（20 章）", description: "Facebook 广告资料库（Meta Ad Library）中文教程：怎么查竞品广告、看懂广告卡片、判断爆款、保存素材，按品类和市场找广告，附链接参数与中英术语对照。", alt_en: "README.en.html"}
   - scope: {path: "README.en.md"}
     values: {title: "Facebook Ad Library Guide (Chinese, 20 chapters)", description: "A 20-chapter Chinese guide to the Facebook Ad Library (Meta Ad Library): find competitors' ads, read ad cards, spot winning ads and save creatives.", lang: en, alt_zh: "./"}
   - scope: {path: "docs/01-facebook-ad-library-guide.md"}
